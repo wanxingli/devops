@@ -1,0 +1,418 @@
+2019-08-16 14:47:17.390 [main] INFO  org.jeecg.JeecgApplication:50 - Starting JeecgApplication on LAPTOP-HF0J9EJF with PID 50480 (C:\project\jeecg-boot\jeecg-boot\jeecg-boot-module-system\target\classes started by lwx in C:\project\jeecg-boot\jeecg-boot)
+2019-08-16 14:47:17.405 [main] INFO  org.jeecg.JeecgApplication:679 - The following profiles are active: dev
+2019-08-16 14:47:22.073 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-16 14:47:22.089 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-16 14:47:22.230 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 110ms. Found 0 repository interfaces.
+2019-08-16 14:47:22.812 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$badcf959] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:23.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [org.jeecg.modules.shiro.authc.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:23.234 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:23.312 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:23.506 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9ad78fc3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.169 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.185 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$4660094] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.232 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.263 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dynamicDatasourceAnnotationAdvisor' of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.326 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.354 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$aff14e0d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.670 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.874 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:24.921 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConfig' of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$5ab80a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:25.014 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration' of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$adf06d73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:25.030 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'eventBus' of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-16 14:47:25.905 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 7072 (http)
+2019-08-16 14:47:25.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-7072"]
+2019-08-16 14:47:25.968 [main] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2019-08-16 14:47:25.968 [main] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-16 14:47:25.983 [main] INFO  org.apache.catalina.core.AprLifecycleListener:173 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\javaTooles\jdk1.8.0_51\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\javaTooles\jdk1.8.0_51\bin;C:\javaTooles\maven\apache-maven-3.3.9\bin;C:\javaTooles\git\Git\cmd;C:\javaTooles\tortoisegit\tortoisegit\bin;C:\javaTooles\node.js\node\;C:\Users\lwx\AppData\Local\Microsoft\WindowsApps;C:\Users\lwx\AppData\Roaming\npm;.]
+2019-08-16 14:47:26.202 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring embedded WebApplicationContext
+2019-08-16 14:47:26.202 [main] INFO  org.springframework.web.context.ContextLoader:296 - Root WebApplicationContext: initialization completed in 8687 ms
+2019-08-16 14:47:26.996 [main] INFO  c.b.dynamic.datasource.DynamicDataSourceCreator:113 - 动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置
+2019-08-16 14:47:27.558 [main] INFO  com.alibaba.druid.pool.DruidDataSource:1003 - {dataSource-1,master} inited
+2019-08-16 14:47:27.558 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:203 - 初始共加载 1 个数据源
+2019-08-16 14:47:27.574 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:142 - 动态数据源-加载 master 成功
+2019-08-16 14:47:27.574 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource:212 - 当前的默认数据源是单数据源，数据源名为 master
+2019-08-16 14:47:32.838 [main] INFO  org.quartz.impl.StdSchedulerFactory:1208 - Using default implementation for ThreadExecutor
+2019-08-16 14:47:32.885 [main] INFO  org.quartz.core.SchedulerSignalerImpl:61 - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-08-16 14:47:32.901 [main] INFO  org.quartz.core.QuartzScheduler:229 - Quartz Scheduler v.2.3.0 created.
+2019-08-16 14:47:32.916 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:672 - Using db table-based data access locking (synchronization).
+2019-08-16 14:47:32.932 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:145 - JobStoreCMT initialized.
+2019-08-16 14:47:32.932 [main] INFO  org.quartz.core.QuartzScheduler:294 - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2019-08-16 14:47:32.932 [main] INFO  org.quartz.impl.StdSchedulerFactory:1362 - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2019-08-16 14:47:32.932 [main] INFO  org.quartz.impl.StdSchedulerFactory:1366 - Quartz scheduler version: 2.3.0
+2019-08-16 14:47:32.932 [main] INFO  org.quartz.core.QuartzScheduler:2287 - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7b0dfa91
+2019-08-16 14:47:38.628 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver:59 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-16 14:47:39.081 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-08-16 14:47:39.985 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-16 14:47:42.940 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2019-08-16 14:47:42.987 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2019-08-16 14:47:43.096 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2019-08-16 14:47:43.686 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean:726 - Starting Quartz Scheduler now
+2019-08-16 14:47:44.030 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:866 - Freed 0 triggers from 'acquired' / 'blocked' state.
+2019-08-16 14:47:44.061 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:876 - Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2019-08-16 14:47:44.061 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:889 - Recovery complete.
+2019-08-16 14:47:44.076 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:896 - Removed 0 'complete' triggers.
+2019-08-16 14:47:44.092 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore:901 - Removed 0 stale fired job entries.
+2019-08-16 14:47:44.092 [main] INFO  org.quartz.core.QuartzScheduler:547 - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2019-08-16 14:47:44.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-7072"]
+2019-08-16 14:47:44.220 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:204 - Tomcat started on port(s): 7072 (http) with context path '/jeecg-boot'
+2019-08-16 14:47:44.228 [main] INFO  org.jeecg.JeecgApplication:59 - Started JeecgApplication in 28.417 seconds (JVM running for 51.036)
+2019-08-16 14:47:44.270 [main] INFO  org.jeecg.JeecgApplication:27 - 
+----------------------------------------------------------
+	Application Jeecg-Boot is running! Access URLs:
+	Local: 		http://localhost:7072/jeecg-boot/
+	External: 	http://10.4.89.3:7072/jeecg-boot/
+	swagger-ui: 	http://10.4.89.3:7072/jeecg-boot/swagger-ui.html
+	Doc: 		http://10.4.89.3:7072/jeecg-boot/doc.html
+----------------------------------------------------------
+2019-08-16 14:47:45.770 [RMI TCP Connection(9)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/jeecg-boot]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-16 14:47:45.803 [RMI TCP Connection(9)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet:524 - Initializing Servlet 'dispatcherServlet'
+2019-08-16 14:47:45.884 [RMI TCP Connection(9)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet:546 - Completed initialization in 79 ms
+2019-08-16 14:47:46.283 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.EpollProvider:68 - Starting without optional epoll library
+2019-08-16 14:47:46.290 [RMI TCP Connection(4)-127.0.0.1] INFO  io.lettuce.core.KqueueProvider:70 - Starting without optional kqueue library
+2019-08-16 14:48:19.682 [http-nio-7072-exec-2] ERROR o.a.c.c.C.[.[.[/jeecg-boot].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/jeecg-boot] threw exception [org.apache.shiro.authc.AuthenticationException: Token失效，请重新登录] with root cause
+org.apache.shiro.authc.AuthenticationException: Token失效，请重新登录!
+	at org.jeecg.modules.shiro.authc.ShiroRealm.checkUserTokenIsEffect(ShiroRealm.java:118)
+	at org.jeecg.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:93)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-16 14:48:19.926 [http-nio-7072-exec-4] ERROR o.a.c.c.C.[.[.[/jeecg-boot].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/jeecg-boot] threw exception [org.apache.shiro.authc.AuthenticationException: Token失效，请重新登录] with root cause
+org.apache.shiro.authc.AuthenticationException: Token失效，请重新登录!
+	at org.jeecg.modules.shiro.authc.ShiroRealm.checkUserTokenIsEffect(ShiroRealm.java:118)
+	at org.jeecg.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:93)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-16 14:48:21.806 [http-nio-7072-exec-5] ERROR o.a.c.c.C.[.[.[/jeecg-boot].[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [/jeecg-boot] threw exception [org.apache.shiro.authc.AuthenticationException: Token失效，请重新登录] with root cause
+org.apache.shiro.authc.AuthenticationException: token非法无效!
+	at org.jeecg.modules.shiro.authc.ShiroRealm.checkUserTokenIsEffect(ShiroRealm.java:106)
+	at org.jeecg.modules.shiro.authc.ShiroRealm.doGetAuthenticationInfo(ShiroRealm.java:93)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
+	at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+	at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+	at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+	at org.jeecg.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:124)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019-08-16 14:53:47.154 [http-nio-7072-exec-9] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjU5NDAyMDgsInVzZXJuYW1lIjoiYWRtaW4ifQ.8-x_GGAg_FhPtcN6NKUPXhJqGrkpN5XXh5SaEItJgVo
+2019-08-16 14:59:42.430 [http-nio-7072-exec-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 14:59:42.465 [http-nio-7072-exec-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 14:59:42.495 [http-nio-7072-exec-2] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:02:45.017 [http-nio-7072-exec-1] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938965017, used_memory=715352}
+2019-08-16 15:02:45.021 [http-nio-7072-exec-8] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938965021, dbSize=8}
+2019-08-16 15:02:45.037 [http-nio-7072-exec-10] INFO  o.j.m.monitor.controller.ActuatorRedisController:39 - [RedisInfo{key='aof_rewrite_scheduled', value='0', desctiption='rewrite任务计划，当客户端发送bgrewriteaof指令，如果当前rewrite子进程正在执行，那么将客户端请求的bgrewriteaof变为计划任务，待aof子进程结束后执行rewrite '}, RedisInfo{key='keyspace_misses', value='26', desctiption='没命中次数'}, RedisInfo{key='mem_allocator', value='jemalloc-3.6.0', desctiption='在编译时指定的， Redis 所使用的内存分配器。可以是 libc 、 jemalloc 或者 tcmalloc'}, RedisInfo{key='multiplexing_api', value='WinSock_IOCP', desctiption='Redis 所使用的事件处理机制'}, RedisInfo{key='aof_last_write_status', value='ok', desctiption='上次aof写入状态'}, RedisInfo{key='run_id', value='69b775fb06bac79e4226365dafd75ee586643363', desctiption='Redis 服务器的随机标识符（用于 Sentinel 和集群）'}, RedisInfo{key='uptime_in_seconds', value='970934', desctiption='自 Redis 服务器启动以来，经过的秒数'}, RedisInfo{key='arch_bits', value='64', desctiption=' 架构（32 或 64 位）'}, RedisInfo{key='master_repl_offset', value='0', desctiption='主从同步偏移量,此值如果和上面的offset相同说明主从一致没延迟'}, RedisInfo{key='instantaneous_output_kbps', value='0.00', desctiption='redis网络出口kps'}, RedisInfo{key='total_commands_processed', value='1795', desctiption='redis处理的命令数'}, RedisInfo{key='repl_backlog_size', value='1048576', desctiption='复制积压缓冲大小'}, RedisInfo{key='sync_full', value='0', desctiption='主从完全同步成功次数'}, RedisInfo{key='sync_partial_err', value='0', desctiption='主从部分同步失败次数'}, RedisInfo{key='used_cpu_user', value='1.44', desctiption='将所有redis主进程在用户态所占用的CPU时求和累计起来'}, RedisInfo{key='aof_enabled', value='0', desctiption='是否开启了aof'}, RedisInfo{key='redis_mode', value='standalone', desctiption='运行模式，单机（standalone）或者集群（cluster）'}, RedisInfo{key='rdb_changes_since_last_save', value='24', desctiption='离最近一次成功生成rdb文件，写入命令的个数，即有多少个写入命令没有持久化'}, RedisInfo{key='used_memory_lua', value='36864', desctiption='Lua 引擎所使用的内存大小（以字节为单位）'}, RedisInfo{key='redis_build_id', value='a4f7a6e86f2d60b3', desctiption='redis_build_id'}, RedisInfo{key='connected_slaves', value='0', desctiption='连接的slave实例个数'}, RedisInfo{key='expired_keys', value='15', desctiption='运行以来过期的key的数量'}, RedisInfo{key='used_memory', value='715352', desctiption='由 Redis 分配器分配的内存总量，以字节（byte）为单位'}, RedisInfo{key='used_memory_rss', value='677600', desctiption='从操作系统的角度，返回 Redis 已分配的内存总量（俗称常驻集大小）。这个值和 top 、 ps 等命令的输出一致'}, RedisInfo{key='rdb_last_bgsave_status', value='ok', desctiption='最近一次rdb持久化是否成功'}, RedisInfo{key='process_id', value='14516', desctiption='服务器进程的 PID'}, RedisInfo{key='rejected_connections', value='0', desctiption='拒绝的连接个数，redis连接个数达到maxclients限制，拒绝新连接的个数'}, RedisInfo{key='rdb_bgsave_in_progress', value='0', desctiption='服务器是否正在创建rdb文件'}, RedisInfo{key='cluster_enabled', value='0', desctiption='实例是否启用集群模式'}, RedisInfo{key='tcp_port', value='6379', desctiption='TCP/IP 监听端口'}, RedisInfo{key='os', value='Windows', desctiption='Redis 服务器的宿主操作系统'}, RedisInfo{key='aof_current_rewrite_time_sec', value='-1', desctiption='如果rewrite操作正在进行，则记录所使用的时间，单位秒'}, RedisInfo{key='repl_backlog_histlen', value='0', desctiption='此值等于 master_repl_offset - repl_backlog_first_byte_offset,该值不会超过repl_backlog_size的大小'}, RedisInfo{key='role', value='master', desctiption='实例的角色，是master or slave'}, RedisInfo{key='used_cpu_sys', value='1.00', desctiption='将所有redis主进程在核心态所占用的CPU时求和累计起来'}, RedisInfo{key='aof_last_bgrewrite_status', value='ok', desctiption='上次bgrewrite aof操作的状态'}, RedisInfo{key='used_memory_peak_human', value='717.28K', desctiption='以人类可读的格式返回 Redis 的内存消耗峰值'}, RedisInfo{key='hz', value='10', desctiption='redis内部调度（进行关闭timeout的客户端，删除过期key等等）频率，程序规定serverCron每秒运行10次。'}, RedisInfo{key='used_memory_human', value='698.59K', desctiption='以人类可读的格式返回 Redis 分配的内存总量'}, RedisInfo{key='mem_fragmentation_ratio', value='0.95', desctiption='sed_memory_rss 和 used_memory 之间的比率'}, RedisInfo{key='rdb_last_bgsave_time_sec', value='0', desctiption='最近一次成功生成rdb文件耗时秒数'}, RedisInfo{key='blocked_clients', value='0', desctiption='正在等待阻塞命令（BLPOP、BRPOP、BRPOPLPUSH）的客户端的数量'}, RedisInfo{key='used_cpu_sys_children', value='0.00', desctiption='将后台进程在核心态所占用的CPU时求和累计起来'}, RedisInfo{key='repl_backlog_active', value='0', desctiption='复制积压缓冲区是否开启'}, RedisInfo{key='used_cpu_user_children', value='0.00', desctiption='将后台进程在用户态所占用的CPU时求和累计起来'}, RedisInfo{key='sync_partial_ok', value='0', desctiption='主从部分同步成功次数'}, RedisInfo{key='aof_rewrite_in_progress', value='0', desctiption='标识aof的rewrite操作是否在进行中'}, RedisInfo{key='redis_git_sha1', value='00000000', desctiption='Git SHA1'}, RedisInfo{key='client_longest_output_list', value='0', desctiption='当前连接的客户端当中，最长的输出列表'}, RedisInfo{key='rdb_current_bgsave_time_sec', value='-1', desctiption='如果服务器正在创建rdb文件，那么这个域记录的就是当前的创建操作已经耗费的秒数'}, RedisInfo{key='aof_last_rewrite_time_sec', value='-1', desctiption='最近一次aof rewrite耗费的时长'}, RedisInfo{key='config_file', value='C:edisedisedis.windows-service.conf', desctiption='配置文件目录'}, RedisInfo{key='loading', value='0', desctiption='服务器是否正在载入持久化文件'}, RedisInfo{key='pubsub_channels', value='0', desctiption='当前使用中的频道数量'}, RedisInfo{key='db0', value='keys=8,expires=7,avg_ttl=3145300', desctiption='db0的key的数量,以及带有生存期的key的数,平均存活时间'}, RedisInfo{key='migrate_cached_sockets', value='0', desctiption='null'}, RedisInfo{key='redis_git_dirty', value='0', desctiption='Git dirty flag'}, RedisInfo{key='connected_clients', value='2', desctiption='已连接客户端的数量（不包括通过从属服务器连接的客户端）'}, RedisInfo{key='lru_clock', value='5657877', desctiption=' 以分钟为单位进行自增的时钟，用于 LRU 管理'}, RedisInfo{key='pubsub_patterns', value='0', desctiption='当前使用的模式的数量'}, RedisInfo{key='repl_backlog_first_byte_offset', value='0', desctiption='复制缓冲区里偏移量的大小'}, RedisInfo{key='total_net_output_bytes', value='104559', desctiption='redis网络出口流量字节数'}, RedisInfo{key='client_biggest_input_buf', value='0', desctiption='当前连接的客户端当中，最大输入缓存，用client list命令观察qbuf和qbuf-free两个字段最大值'}, RedisInfo{key='evicted_keys', value='0', desctiption='运行以来剔除(超过了maxmemory后)的key的数量'}, RedisInfo{key='total_connections_received', value='20', desctiption='新创建连接个数,如果新创建连接过多，过度地创建和销毁连接对性能有影响，说明短连接严重或连接池使用有问题，需调研代码的连接设置'}, RedisInfo{key='redis_version', value='3.0.504', desctiption='Redis 服务器版本'}, RedisInfo{key='total_net_input_bytes', value='375815', desctiption='redis网络入口流量字节数'}, RedisInfo{key='latest_fork_usec', value='6890', desctiption='最近一次fork操作阻塞redis进程的耗时数，单位微秒'}, RedisInfo{key='used_memory_peak', value='734496', desctiption=' Redis 的内存消耗峰值(以字节为单位)'}, RedisInfo{key='keyspace_hits', value='1105', desctiption='命中次数'}, RedisInfo{key='uptime_in_days', value='11', desctiption='自 Redis 服务器启动以来，经过的天数'}, RedisInfo{key='instantaneous_input_kbps', value='0.00', desctiption='redis网络入口kps'}, RedisInfo{key='rdb_last_save_time', value='1565938709', desctiption='离最近一次成功创建rdb文件的时间戳。当前时间戳 - rdb_last_save_time=多少秒未成功生成rdb文件'}, RedisInfo{key='instantaneous_ops_per_sec', value='0', desctiption='redis当前的qps，redis内部较实时的每秒执行的命令数'}]
+2019-08-16 15:02:45.935 [http-nio-7072-exec-3] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938965935, used_memory=715352}
+2019-08-16 15:02:45.935 [http-nio-7072-exec-4] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938965935, dbSize=8}
+2019-08-16 15:02:56.300 [http-nio-7072-exec-3] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938976300, dbSize=8}
+2019-08-16 15:02:56.300 [http-nio-7072-exec-6] INFO  o.j.m.monitor.controller.ActuatorRedisController:39 - [RedisInfo{key='aof_rewrite_scheduled', value='0', desctiption='rewrite任务计划，当客户端发送bgrewriteaof指令，如果当前rewrite子进程正在执行，那么将客户端请求的bgrewriteaof变为计划任务，待aof子进程结束后执行rewrite '}, RedisInfo{key='keyspace_misses', value='26', desctiption='没命中次数'}, RedisInfo{key='mem_allocator', value='jemalloc-3.6.0', desctiption='在编译时指定的， Redis 所使用的内存分配器。可以是 libc 、 jemalloc 或者 tcmalloc'}, RedisInfo{key='multiplexing_api', value='WinSock_IOCP', desctiption='Redis 所使用的事件处理机制'}, RedisInfo{key='aof_last_write_status', value='ok', desctiption='上次aof写入状态'}, RedisInfo{key='run_id', value='69b775fb06bac79e4226365dafd75ee586643363', desctiption='Redis 服务器的随机标识符（用于 Sentinel 和集群）'}, RedisInfo{key='uptime_in_seconds', value='970945', desctiption='自 Redis 服务器启动以来，经过的秒数'}, RedisInfo{key='arch_bits', value='64', desctiption=' 架构（32 或 64 位）'}, RedisInfo{key='master_repl_offset', value='0', desctiption='主从同步偏移量,此值如果和上面的offset相同说明主从一致没延迟'}, RedisInfo{key='instantaneous_output_kbps', value='0.00', desctiption='redis网络出口kps'}, RedisInfo{key='total_commands_processed', value='1802', desctiption='redis处理的命令数'}, RedisInfo{key='repl_backlog_size', value='1048576', desctiption='复制积压缓冲大小'}, RedisInfo{key='sync_full', value='0', desctiption='主从完全同步成功次数'}, RedisInfo{key='sync_partial_err', value='0', desctiption='主从部分同步失败次数'}, RedisInfo{key='used_cpu_user', value='1.44', desctiption='将所有redis主进程在用户态所占用的CPU时求和累计起来'}, RedisInfo{key='aof_enabled', value='0', desctiption='是否开启了aof'}, RedisInfo{key='redis_mode', value='standalone', desctiption='运行模式，单机（standalone）或者集群（cluster）'}, RedisInfo{key='rdb_changes_since_last_save', value='26', desctiption='离最近一次成功生成rdb文件，写入命令的个数，即有多少个写入命令没有持久化'}, RedisInfo{key='used_memory_lua', value='36864', desctiption='Lua 引擎所使用的内存大小（以字节为单位）'}, RedisInfo{key='redis_build_id', value='a4f7a6e86f2d60b3', desctiption='redis_build_id'}, RedisInfo{key='connected_slaves', value='0', desctiption='连接的slave实例个数'}, RedisInfo{key='expired_keys', value='15', desctiption='运行以来过期的key的数量'}, RedisInfo{key='used_memory', value='715352', desctiption='由 Redis 分配器分配的内存总量，以字节（byte）为单位'}, RedisInfo{key='used_memory_rss', value='677600', desctiption='从操作系统的角度，返回 Redis 已分配的内存总量（俗称常驻集大小）。这个值和 top 、 ps 等命令的输出一致'}, RedisInfo{key='rdb_last_bgsave_status', value='ok', desctiption='最近一次rdb持久化是否成功'}, RedisInfo{key='process_id', value='14516', desctiption='服务器进程的 PID'}, RedisInfo{key='rejected_connections', value='0', desctiption='拒绝的连接个数，redis连接个数达到maxclients限制，拒绝新连接的个数'}, RedisInfo{key='rdb_bgsave_in_progress', value='0', desctiption='服务器是否正在创建rdb文件'}, RedisInfo{key='cluster_enabled', value='0', desctiption='实例是否启用集群模式'}, RedisInfo{key='tcp_port', value='6379', desctiption='TCP/IP 监听端口'}, RedisInfo{key='os', value='Windows', desctiption='Redis 服务器的宿主操作系统'}, RedisInfo{key='aof_current_rewrite_time_sec', value='-1', desctiption='如果rewrite操作正在进行，则记录所使用的时间，单位秒'}, RedisInfo{key='repl_backlog_histlen', value='0', desctiption='此值等于 master_repl_offset - repl_backlog_first_byte_offset,该值不会超过repl_backlog_size的大小'}, RedisInfo{key='role', value='master', desctiption='实例的角色，是master or slave'}, RedisInfo{key='used_cpu_sys', value='1.00', desctiption='将所有redis主进程在核心态所占用的CPU时求和累计起来'}, RedisInfo{key='aof_last_bgrewrite_status', value='ok', desctiption='上次bgrewrite aof操作的状态'}, RedisInfo{key='used_memory_peak_human', value='717.28K', desctiption='以人类可读的格式返回 Redis 的内存消耗峰值'}, RedisInfo{key='hz', value='10', desctiption='redis内部调度（进行关闭timeout的客户端，删除过期key等等）频率，程序规定serverCron每秒运行10次。'}, RedisInfo{key='used_memory_human', value='698.59K', desctiption='以人类可读的格式返回 Redis 分配的内存总量'}, RedisInfo{key='mem_fragmentation_ratio', value='0.95', desctiption='sed_memory_rss 和 used_memory 之间的比率'}, RedisInfo{key='rdb_last_bgsave_time_sec', value='0', desctiption='最近一次成功生成rdb文件耗时秒数'}, RedisInfo{key='blocked_clients', value='0', desctiption='正在等待阻塞命令（BLPOP、BRPOP、BRPOPLPUSH）的客户端的数量'}, RedisInfo{key='used_cpu_sys_children', value='0.00', desctiption='将后台进程在核心态所占用的CPU时求和累计起来'}, RedisInfo{key='repl_backlog_active', value='0', desctiption='复制积压缓冲区是否开启'}, RedisInfo{key='used_cpu_user_children', value='0.00', desctiption='将后台进程在用户态所占用的CPU时求和累计起来'}, RedisInfo{key='sync_partial_ok', value='0', desctiption='主从部分同步成功次数'}, RedisInfo{key='aof_rewrite_in_progress', value='0', desctiption='标识aof的rewrite操作是否在进行中'}, RedisInfo{key='redis_git_sha1', value='00000000', desctiption='Git SHA1'}, RedisInfo{key='client_longest_output_list', value='0', desctiption='当前连接的客户端当中，最长的输出列表'}, RedisInfo{key='rdb_current_bgsave_time_sec', value='-1', desctiption='如果服务器正在创建rdb文件，那么这个域记录的就是当前的创建操作已经耗费的秒数'}, RedisInfo{key='aof_last_rewrite_time_sec', value='-1', desctiption='最近一次aof rewrite耗费的时长'}, RedisInfo{key='config_file', value='C:edisedisedis.windows-service.conf', desctiption='配置文件目录'}, RedisInfo{key='loading', value='0', desctiption='服务器是否正在载入持久化文件'}, RedisInfo{key='pubsub_channels', value='0', desctiption='当前使用中的频道数量'}, RedisInfo{key='db0', value='keys=8,expires=7,avg_ttl=3018557', desctiption='db0的key的数量,以及带有生存期的key的数,平均存活时间'}, RedisInfo{key='migrate_cached_sockets', value='0', desctiption='null'}, RedisInfo{key='redis_git_dirty', value='0', desctiption='Git dirty flag'}, RedisInfo{key='connected_clients', value='2', desctiption='已连接客户端的数量（不包括通过从属服务器连接的客户端）'}, RedisInfo{key='lru_clock', value='5657888', desctiption=' 以分钟为单位进行自增的时钟，用于 LRU 管理'}, RedisInfo{key='pubsub_patterns', value='0', desctiption='当前使用的模式的数量'}, RedisInfo{key='repl_backlog_first_byte_offset', value='0', desctiption='复制缓冲区里偏移量的大小'}, RedisInfo{key='total_net_output_bytes', value='110609', desctiption='redis网络出口流量字节数'}, RedisInfo{key='client_biggest_input_buf', value='0', desctiption='当前连接的客户端当中，最大输入缓存，用client list命令观察qbuf和qbuf-free两个字段最大值'}, RedisInfo{key='evicted_keys', value='0', desctiption='运行以来剔除(超过了maxmemory后)的key的数量'}, RedisInfo{key='total_connections_received', value='20', desctiption='新创建连接个数,如果新创建连接过多，过度地创建和销毁连接对性能有影响，说明短连接严重或连接池使用有问题，需调研代码的连接设置'}, RedisInfo{key='redis_version', value='3.0.504', desctiption='Redis 服务器版本'}, RedisInfo{key='total_net_input_bytes', value='376543', desctiption='redis网络入口流量字节数'}, RedisInfo{key='latest_fork_usec', value='6890', desctiption='最近一次fork操作阻塞redis进程的耗时数，单位微秒'}, RedisInfo{key='used_memory_peak', value='734496', desctiption=' Redis 的内存消耗峰值(以字节为单位)'}, RedisInfo{key='keyspace_hits', value='1107', desctiption='命中次数'}, RedisInfo{key='uptime_in_days', value='11', desctiption='自 Redis 服务器启动以来，经过的天数'}, RedisInfo{key='instantaneous_input_kbps', value='0.00', desctiption='redis网络入口kps'}, RedisInfo{key='rdb_last_save_time', value='1565938709', desctiption='离最近一次成功创建rdb文件的时间戳。当前时间戳 - rdb_last_save_time=多少秒未成功生成rdb文件'}, RedisInfo{key='instantaneous_ops_per_sec', value='0', desctiption='redis当前的qps，redis内部较实时的每秒执行的命令数'}]
+2019-08-16 15:02:56.301 [http-nio-7072-exec-7] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938976301, used_memory=715352}
+2019-08-16 15:02:57.261 [http-nio-7072-exec-2] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938977261, dbSize=8}
+2019-08-16 15:02:57.262 [http-nio-7072-exec-10] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938977262, used_memory=715352}
+2019-08-16 15:02:59.258 [http-nio-7072-exec-3] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938979258, dbSize=8}
+2019-08-16 15:02:59.258 [http-nio-7072-exec-5] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938979258, used_memory=715352}
+2019-08-16 15:03:02.276 [http-nio-7072-exec-1] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938982276, used_memory=715352}
+2019-08-16 15:03:02.275 [http-nio-7072-exec-9] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938982275, dbSize=8}
+2019-08-16 15:03:05.260 [http-nio-7072-exec-8] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565938985260, dbSize=8}
+2019-08-16 15:03:05.260 [http-nio-7072-exec-4] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565938985260, used_memory=715352}
+2019-08-16 15:03:07.071 [http-nio-7072-exec-5] INFO  org.jeecg.common.system.query.QueryGenerator:387 - --查询规则-->log_type = 1
+2019-08-16 15:03:07.103 [http-nio-7072-exec-5] INFO  o.jeecg.modules.system.controller.SysLogController:66 - 查询当前页：1
+2019-08-16 15:03:07.103 [http-nio-7072-exec-5] INFO  o.jeecg.modules.system.controller.SysLogController:67 - 查询当前页数量：10
+2019-08-16 15:03:07.109 [http-nio-7072-exec-5] INFO  o.jeecg.modules.system.controller.SysLogController:68 - 查询结果数量：10
+2019-08-16 15:03:07.110 [http-nio-7072-exec-5] INFO  o.jeecg.modules.system.controller.SysLogController:69 - 数据总数：913
+2019-08-16 15:03:07.125 [http-nio-7072-exec-5] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:03:13.787 [http-nio-7072-exec-6] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:03:13.803 [http-nio-7072-exec-6] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:03:13.817 [http-nio-7072-exec-6] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:03:13.837 [http-nio-7072-exec-6] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:12:28.483 [http-nio-7072-exec-10] INFO  org.jeecg.common.system.query.QueryGenerator:387 - --查询规则-->pid LIKE 0
+2019-08-16 15:12:33.094 [http-nio-7072-exec-7] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:12:41.256 [http-nio-7072-exec-1] INFO  o.j.m.system.controller.SysAnnouncementController:94 - 查询当前页：1
+2019-08-16 15:12:41.266 [http-nio-7072-exec-1] INFO  o.j.m.system.controller.SysAnnouncementController:95 - 查询当前页数量：10
+2019-08-16 15:12:41.274 [http-nio-7072-exec-1] INFO  o.j.m.system.controller.SysAnnouncementController:96 - 查询结果数量：2
+2019-08-16 15:12:41.285 [http-nio-7072-exec-1] INFO  o.j.m.system.controller.SysAnnouncementController:97 - 数据总数：2
+2019-08-16 15:12:41.289 [http-nio-7072-exec-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:12:41.304 [http-nio-7072-exec-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:12:41.316 [http-nio-7072-exec-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:12:41.325 [http-nio-7072-exec-1] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 15:12:51.845 [http-nio-7072-exec-3] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939571845, used_memory=721528}
+2019-08-16 15:12:51.845 [http-nio-7072-exec-7] INFO  o.j.m.monitor.controller.ActuatorRedisController:39 - [RedisInfo{key='aof_rewrite_scheduled', value='0', desctiption='rewrite任务计划，当客户端发送bgrewriteaof指令，如果当前rewrite子进程正在执行，那么将客户端请求的bgrewriteaof变为计划任务，待aof子进程结束后执行rewrite '}, RedisInfo{key='keyspace_misses', value='46', desctiption='没命中次数'}, RedisInfo{key='mem_allocator', value='jemalloc-3.6.0', desctiption='在编译时指定的， Redis 所使用的内存分配器。可以是 libc 、 jemalloc 或者 tcmalloc'}, RedisInfo{key='multiplexing_api', value='WinSock_IOCP', desctiption='Redis 所使用的事件处理机制'}, RedisInfo{key='aof_last_write_status', value='ok', desctiption='上次aof写入状态'}, RedisInfo{key='run_id', value='69b775fb06bac79e4226365dafd75ee586643363', desctiption='Redis 服务器的随机标识符（用于 Sentinel 和集群）'}, RedisInfo{key='uptime_in_seconds', value='971540', desctiption='自 Redis 服务器启动以来，经过的秒数'}, RedisInfo{key='arch_bits', value='64', desctiption=' 架构（32 或 64 位）'}, RedisInfo{key='master_repl_offset', value='0', desctiption='主从同步偏移量,此值如果和上面的offset相同说明主从一致没延迟'}, RedisInfo{key='instantaneous_output_kbps', value='0.00', desctiption='redis网络出口kps'}, RedisInfo{key='total_commands_processed', value='2062', desctiption='redis处理的命令数'}, RedisInfo{key='repl_backlog_size', value='1048576', desctiption='复制积压缓冲大小'}, RedisInfo{key='sync_full', value='0', desctiption='主从完全同步成功次数'}, RedisInfo{key='sync_partial_err', value='0', desctiption='主从部分同步失败次数'}, RedisInfo{key='used_cpu_user', value='1.45', desctiption='将所有redis主进程在用户态所占用的CPU时求和累计起来'}, RedisInfo{key='aof_enabled', value='0', desctiption='是否开启了aof'}, RedisInfo{key='redis_mode', value='standalone', desctiption='运行模式，单机（standalone）或者集群（cluster）'}, RedisInfo{key='rdb_changes_since_last_save', value='48', desctiption='离最近一次成功生成rdb文件，写入命令的个数，即有多少个写入命令没有持久化'}, RedisInfo{key='used_memory_lua', value='36864', desctiption='Lua 引擎所使用的内存大小（以字节为单位）'}, RedisInfo{key='redis_build_id', value='a4f7a6e86f2d60b3', desctiption='redis_build_id'}, RedisInfo{key='connected_slaves', value='0', desctiption='连接的slave实例个数'}, RedisInfo{key='expired_keys', value='15', desctiption='运行以来过期的key的数量'}, RedisInfo{key='used_memory', value='721528', desctiption='由 Redis 分配器分配的内存总量，以字节（byte）为单位'}, RedisInfo{key='used_memory_rss', value='683776', desctiption='从操作系统的角度，返回 Redis 已分配的内存总量（俗称常驻集大小）。这个值和 top 、 ps 等命令的输出一致'}, RedisInfo{key='rdb_last_bgsave_status', value='ok', desctiption='最近一次rdb持久化是否成功'}, RedisInfo{key='process_id', value='14516', desctiption='服务器进程的 PID'}, RedisInfo{key='rejected_connections', value='0', desctiption='拒绝的连接个数，redis连接个数达到maxclients限制，拒绝新连接的个数'}, RedisInfo{key='rdb_bgsave_in_progress', value='0', desctiption='服务器是否正在创建rdb文件'}, RedisInfo{key='cluster_enabled', value='0', desctiption='实例是否启用集群模式'}, RedisInfo{key='tcp_port', value='6379', desctiption='TCP/IP 监听端口'}, RedisInfo{key='os', value='Windows', desctiption='Redis 服务器的宿主操作系统'}, RedisInfo{key='aof_current_rewrite_time_sec', value='-1', desctiption='如果rewrite操作正在进行，则记录所使用的时间，单位秒'}, RedisInfo{key='repl_backlog_histlen', value='0', desctiption='此值等于 master_repl_offset - repl_backlog_first_byte_offset,该值不会超过repl_backlog_size的大小'}, RedisInfo{key='role', value='master', desctiption='实例的角色，是master or slave'}, RedisInfo{key='used_cpu_sys', value='1.03', desctiption='将所有redis主进程在核心态所占用的CPU时求和累计起来'}, RedisInfo{key='aof_last_bgrewrite_status', value='ok', desctiption='上次bgrewrite aof操作的状态'}, RedisInfo{key='used_memory_peak_human', value='717.28K', desctiption='以人类可读的格式返回 Redis 的内存消耗峰值'}, RedisInfo{key='hz', value='10', desctiption='redis内部调度（进行关闭timeout的客户端，删除过期key等等）频率，程序规定serverCron每秒运行10次。'}, RedisInfo{key='used_memory_human', value='704.62K', desctiption='以人类可读的格式返回 Redis 分配的内存总量'}, RedisInfo{key='mem_fragmentation_ratio', value='0.95', desctiption='sed_memory_rss 和 used_memory 之间的比率'}, RedisInfo{key='rdb_last_bgsave_time_sec', value='0', desctiption='最近一次成功生成rdb文件耗时秒数'}, RedisInfo{key='blocked_clients', value='0', desctiption='正在等待阻塞命令（BLPOP、BRPOP、BRPOPLPUSH）的客户端的数量'}, RedisInfo{key='used_cpu_sys_children', value='0.00', desctiption='将后台进程在核心态所占用的CPU时求和累计起来'}, RedisInfo{key='repl_backlog_active', value='0', desctiption='复制积压缓冲区是否开启'}, RedisInfo{key='used_cpu_user_children', value='0.00', desctiption='将后台进程在用户态所占用的CPU时求和累计起来'}, RedisInfo{key='sync_partial_ok', value='0', desctiption='主从部分同步成功次数'}, RedisInfo{key='aof_rewrite_in_progress', value='0', desctiption='标识aof的rewrite操作是否在进行中'}, RedisInfo{key='redis_git_sha1', value='00000000', desctiption='Git SHA1'}, RedisInfo{key='client_longest_output_list', value='0', desctiption='当前连接的客户端当中，最长的输出列表'}, RedisInfo{key='rdb_current_bgsave_time_sec', value='-1', desctiption='如果服务器正在创建rdb文件，那么这个域记录的就是当前的创建操作已经耗费的秒数'}, RedisInfo{key='aof_last_rewrite_time_sec', value='-1', desctiption='最近一次aof rewrite耗费的时长'}, RedisInfo{key='config_file', value='C:edisedisedis.windows-service.conf', desctiption='配置文件目录'}, RedisInfo{key='loading', value='0', desctiption='服务器是否正在载入持久化文件'}, RedisInfo{key='pubsub_channels', value='0', desctiption='当前使用中的频道数量'}, RedisInfo{key='db0', value='keys=28,expires=27,avg_ttl=3226411', desctiption='db0的key的数量,以及带有生存期的key的数,平均存活时间'}, RedisInfo{key='migrate_cached_sockets', value='0', desctiption='null'}, RedisInfo{key='redis_git_dirty', value='0', desctiption='Git dirty flag'}, RedisInfo{key='connected_clients', value='2', desctiption='已连接客户端的数量（不包括通过从属服务器连接的客户端）'}, RedisInfo{key='lru_clock', value='5658483', desctiption=' 以分钟为单位进行自增的时钟，用于 LRU 管理'}, RedisInfo{key='pubsub_patterns', value='0', desctiption='当前使用的模式的数量'}, RedisInfo{key='repl_backlog_first_byte_offset', value='0', desctiption='复制缓冲区里偏移量的大小'}, RedisInfo{key='total_net_output_bytes', value='128044', desctiption='redis网络出口流量字节数'}, RedisInfo{key='client_biggest_input_buf', value='0', desctiption='当前连接的客户端当中，最大输入缓存，用client list命令观察qbuf和qbuf-free两个字段最大值'}, RedisInfo{key='evicted_keys', value='0', desctiption='运行以来剔除(超过了maxmemory后)的key的数量'}, RedisInfo{key='total_connections_received', value='20', desctiption='新创建连接个数,如果新创建连接过多，过度地创建和销毁连接对性能有影响，说明短连接严重或连接池使用有问题，需调研代码的连接设置'}, RedisInfo{key='redis_version', value='3.0.504', desctiption='Redis 服务器版本'}, RedisInfo{key='total_net_input_bytes', value='413978', desctiption='redis网络入口流量字节数'}, RedisInfo{key='latest_fork_usec', value='2189', desctiption='最近一次fork操作阻塞redis进程的耗时数，单位微秒'}, RedisInfo{key='used_memory_peak', value='734496', desctiption=' Redis 的内存消耗峰值(以字节为单位)'}, RedisInfo{key='keyspace_hits', value='1205', desctiption='命中次数'}, RedisInfo{key='uptime_in_days', value='11', desctiption='自 Redis 服务器启动以来，经过的天数'}, RedisInfo{key='instantaneous_input_kbps', value='0.00', desctiption='redis网络入口kps'}, RedisInfo{key='rdb_last_save_time', value='1565939311', desctiption='离最近一次成功创建rdb文件的时间戳。当前时间戳 - rdb_last_save_time=多少秒未成功生成rdb文件'}, RedisInfo{key='instantaneous_ops_per_sec', value='0', desctiption='redis当前的qps，redis内部较实时的每秒执行的命令数'}]
+2019-08-16 15:12:51.845 [http-nio-7072-exec-4] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939571845, dbSize=28}
+2019-08-16 15:12:52.778 [http-nio-7072-exec-9] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939572778, dbSize=28}
+2019-08-16 15:12:52.778 [http-nio-7072-exec-6] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939572778, used_memory=721528}
+2019-08-16 15:12:54.780 [http-nio-7072-exec-3] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939574780, used_memory=721528}
+2019-08-16 15:12:54.780 [http-nio-7072-exec-8] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939574780, dbSize=28}
+2019-08-16 15:12:57.780 [http-nio-7072-exec-1] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939577780, dbSize=28}
+2019-08-16 15:12:57.781 [http-nio-7072-exec-5] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939577780, used_memory=721528}
+2019-08-16 15:13:00.777 [http-nio-7072-exec-10] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939580777, used_memory=721528}
+2019-08-16 15:13:00.779 [http-nio-7072-exec-2] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939580779, dbSize=28}
+2019-08-16 15:13:03.782 [http-nio-7072-exec-4] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939583782, dbSize=28}
+2019-08-16 15:13:03.782 [http-nio-7072-exec-7] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939583782, used_memory=721528}
+2019-08-16 15:13:06.781 [http-nio-7072-exec-9] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:56 - --getKeysSize--: {create_time=1565939586781, dbSize=28}
+2019-08-16 15:13:06.781 [http-nio-7072-exec-6] INFO  o.j.modules.monitor.service.impl.RedisServiceImpl:72 - --getMemoryInfo--: {create_time=1565939586781, used_memory=721560}
+2019-08-16 15:22:55.301 [Druid-ConnectionPool-Create-198347910] ERROR com.alibaba.druid.pool.DruidDataSource:2699 - create connection SQLException, url: jdbc:mysql://10.4.168.221:3366/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:156)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_connect(FilterEventAdapter.java:38)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.FilterAdapter.connection_connect(FilterAdapter.java:787)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:218)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:150)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1598)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1662)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2697)
+Caused by: java.net.NoRouteToHostException: No route to host: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 23 common frames omitted
+2019-08-16 15:24:47.328 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:94 - 查询当前页：1
+2019-08-16 15:24:47.341 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:95 - 查询当前页数量：10
+2019-08-16 15:24:47.347 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:96 - 查询结果数量：2
+2019-08-16 15:24:47.358 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:97 - 数据总数：2
+2019-08-16 15:26:12.848 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:94 - 查询当前页：1
+2019-08-16 15:26:12.857 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:95 - 查询当前页数量：10
+2019-08-16 15:26:12.858 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:96 - 查询结果数量：2
+2019-08-16 15:26:12.858 [http-nio-7072-exec-8] INFO  o.j.m.system.controller.SysAnnouncementController:97 - 数据总数：2
+2019-08-16 15:27:13.089 [http-nio-7072-exec-4] INFO  o.j.m.system.controller.SysAnnouncementController:94 - 查询当前页：1
+2019-08-16 15:27:13.101 [http-nio-7072-exec-4] INFO  o.j.m.system.controller.SysAnnouncementController:95 - 查询当前页数量：10
+2019-08-16 15:27:13.102 [http-nio-7072-exec-4] INFO  o.j.m.system.controller.SysAnnouncementController:96 - 查询结果数量：2
+2019-08-16 15:27:13.104 [http-nio-7072-exec-4] INFO  o.j.m.system.controller.SysAnnouncementController:97 - 数据总数：2
+2019-08-16 15:27:43.303 [http-nio-7072-exec-6] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjU5NDAyMDgsInVzZXJuYW1lIjoiYWRtaW4ifQ.8-x_GGAg_FhPtcN6NKUPXhJqGrkpN5XXh5SaEItJgVo
+2019-08-16 17:02:11.402 [http-nio-7072-exec-7] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 17:02:11.463 [http-nio-7072-exec-7] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 17:02:11.579 [http-nio-7072-exec-7] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:62 - 无缓存dictText的时候调用这里！
+2019-08-16 17:02:18.275 [http-nio-7072-exec-4] INFO  o.j.modules.system.controller.SysDictController:127 -  dictCode : activiti_sync
+2019-08-16 17:02:18.321 [http-nio-7072-exec-4] INFO  o.j.modules.system.service.impl.SysDictServiceImpl:48 - 无缓存dictCache的时候调用这里！
+2019-08-16 17:02:18.334 [http-nio-7072-exec-4] INFO  o.j.modules.system.controller.SysDictController:160 - Result(success=true, message=操作成功！, code=0, result=[DictModel(value=1, text=同步), DictModel(value=0, text=不同步)], timestamp=1565946138292)
+2019-08-16 18:11:37.185 [http-nio-7072-exec-5] INFO  o.j.m.system.controller.SysPermissionController:120 -  ------ 通过令牌获取用户拥有的访问菜单 ---- TOKEN ------ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjU5NDAyMDgsInVzZXJuYW1lIjoiYWRtaW4ifQ.8-x_GGAg_FhPtcN6NKUPXhJqGrkpN5XXh5SaEItJgVo
